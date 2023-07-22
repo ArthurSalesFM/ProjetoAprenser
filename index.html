@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="author" content="Arthur Felipe MS">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&family=Roboto:wght@400;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/estilo.css">
+</head>
+<body>
+
+    <!--Cabeçalho-->
+    <div class="wrapperContainer wrapperContainer-dark wrapperContainer-fixed">
+        <header class="header container">
+            <a href="index.html"><img src="imagens/logoAprenser.png" alt="Aprenser"></a>
+            <nav class="header_nav">
+                <ul>
+                    <li><a href="#cursos">Cursos</a></li>
+                    <li><a href="#escola">Nossa Escola</a></li>
+                    <li><a href="#contatos">Contatos</a></li>
+                </ul>
+            </nav>
+        </header>
+    </div>
+    
+    <!--Seção 1-->
+    <div class="wrapperContainer wrapperContainer-hero">
+        <section class="container heroBanner">
+            <div class="header_content">
+                <h1 class="hero_title">O saber é o que transforma nosso <span class="upper">ser</span></h1>
+                <a href="#" class="btn">Saiba mais</a>
+            </div>
+            <img src="imagens/HeroImage.png" alt="Mulher segurando flores">
+        </section>
+    </div>
+
+    <!--Seção 2-->
+    <div class="wrapperContainer wrapperContainer-light wrapperContainer_padded"  id="cursos">
+        <section class="cursos container">
+            <h2 class="section_title">Principais Cursos</h2>
+            <div class="cursosContainer">
+                
+                <article class="curso_card">
+                    <img src="imagens/curso-design.png" alt="Curso design">
+                    <div class="cursos_card_content">
+                        <h3>Design para web</h3>
+                        <p>O curso Design para Web é perfeito para aqueles que desejam aprender a criar designs atraentes e funcionais para sites e aplicativos móveis.</p>
+                    </div>
+                </article>
+
+                <article class="curso_card">
+                    <img src="imagens/curso-design-1.png" alt="Curso Front-end">
+                    <div class="cursos_card_content">
+                        <h3>Front End Developer</h3>
+                        <p>Aprenda HTML, CSS e Javascript e crei interfaces ricas e semânticas para páginas web, aplicativos on-line ou até mesmo aplicações para aparelhos celulares.</p>
+                    </div>
+                </article>
+
+                <article class="curso_card">
+                    <img src="imagens/curso-design-2.png" alt="Curso Back-end">
+                    <div class="cursos_card_content">
+                        <h3>Back End Developer</h3>
+                        <p>Com este curso você vai dominar uma linguagem back-end a sua escolha, um sistema de banco de dados e aprenderá como funciona o protocolo HTTP na prática.</p>
+                    </div>
+                </article>
+
+            </div>
+            <a href="#" class="btn section_btn">Ver mais cursos</a>
+        </section>
+    </div>
+
+    <!--Seção 3-->
+    <div class="wrapperContainer wrapperContainer-dark2 wrapperContainer_padded" id="escola">
+        <section class="container escola">
+            <img src="imagens/nossa-escola.png" alt="Mulher estudando feliz">
+            <div class="escola_content">
+                <h2 class="escola_title">Nossa Escola</h2>
+                <p>Aprenda habilidades tecnológicas em demanda e alcance seus objetivos de carreira com a nossa escola de tecnologia online. Oferecemos uma ampla gama de cursos online, desde programação e desenvolvimento de software até design gráfico e análise de dados. Nossos instrutores experientes fornecerão a você um ambiente de aprendizado interativo e de suporte para ajudá-lo a adquirir as habilidades necessárias para ter sucesso em sua carreira. Inscreva-se agora e comece sua jornada para se tornar um profissional de tecnologia bem-sucedido.</p>
+            </div>
+        </section>
+    </div>
+
+    <!--Seção 4-->
+    <div class="wrapperContainer wrapperContainer-light wrapperContainer_padded" id="contatos">
+        <section class="container">
+            <h2 class="section_title">Contatos</h2>
+            <!--Inserindo outras páginas em minha página, nesse caso o google maps-->
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1979.1053146777463!2d-35.87711305103277!3d-7.216798554114628!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x7ac1e5f43201c85%3A0xc9656aec3aa6af51!2sCampina%20Grande%2C%20PB!5e0!3m2!1spt-BR!2sbr!4v1689963209626!5m2!1spt-BR!2sbr" width="100%" height="525" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            <address class="contatos_address">Cidade: Campina Grande - PB<br>
+                Fone: +83 12345-6789<br>
+                E-mail: contato@teste.com.artfms</address>
+        </section>
+    </div>
+
+    <div class="wrapperContainer wrapperContainer-dark">
+        <footer class="footer">Created By: Arthur Felipe MS</footer>
+    </div>
+
+</body>
+</html>
